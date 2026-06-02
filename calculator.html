@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <center>
+    <div class="calc-body">
+        <div class="calc-screen">
+            <div id="calc-type">
+                <input type="text" id="result" placeholder="">
+            </div>
+
+            <div class="calc-button-row">
+
+                
+                <button id="ac" onclick="clearBox()"class="opt">Ac</button>
+                <button id=" del" onclick="removelastitem()" class="opt">&#9003;</button>
+                <button id="div" onclick="displayNumber('/')"class="opt">/</button>
+                <button id="sub" onclick="displayNumber('-')" class="opt">-</button>
+                <br>
+                <button id="seven" onclick="displayNumber(7)"class="buttons">7</button>
+                <button id="eight" onclick="displayNumber(8)"class="buttons">8</button>
+                <button id="nine" onclick="displayNumber(9)"class="buttons">9</button>
+                <button id="div" onclick="displayNumber('/')"class="opt">&#247;</button>
+                
+                </div>
+                <button id="four" onclick="displayNumber(4)"class="buttons">4</button>
+                <button id="five" onclick="displayNumber(5)"class="buttons">5</button>
+                <button id="six" onclick="displayNumber(6)"class="buttons">6</button>
+                <button id="mul" onclick="displayNumber('*')" class="opt">&#215;</button>
+                
+                </div>
+                <button id="one" onclick="displayNumber(1)"class="buttons">1</button>
+                <button id="two" onclick="displayNumber(2)"class="buttons">2</button>
+                <button id="three" onclick="displayNumber(3)"class="buttons">3</button>
+                <button id="add" onclick="displayNumber('+')" class="opt">+</button>
+                <br>
+                 <button id="single zero" onclick="displayNumber('0')" class="buttons">0</button>
+                 <button id="double zero" onclick="displayNumber('00')" class="buttons">00</button>
+                 <button id="div" onclick="displayNumber('.')" class="buttons">.</button>
+                <button id=" equal" onclick="evaluateExp()" class="opt1">&#61;</button>
+                </div>
+            </div>
+        </body>
+<script src="./script1.js"></script>
+</center>
+</html>
